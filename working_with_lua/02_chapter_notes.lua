@@ -91,9 +91,9 @@ print (string.len("hello, world"))
 name = "Sharif"
 color = "Blue"
 -- concatenate three strings
-print ("Jill " .. "likes" .. " Red")
+print ("Miguel " .. "likes" .. " Red")
 -- concatenate a variable and a string
-print ("Jack dislikes " .. color)
+print ("Kamilah dislikes " .. color)
 -- concatenate two variables and a string
 print (name .. " likes " .. color)
 -- concatenate two variables
@@ -103,4 +103,17 @@ message = name .. " likes " .. color
 print(message)
 
 -- string coercion
-pw
+
+pi = 3.14
+message = "The rounded value of pi is: " .. pi
+print (message)
+print ("Nine: " .. 9)
+
+eleven = "10" + 1
+print (eleven)
+print (7 + "01") -- 8
+
+-- escape characters
+
+message = "she said \"bye\" and left"
+print(message)
